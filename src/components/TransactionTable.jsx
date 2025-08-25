@@ -62,7 +62,7 @@ export default function TransactionTable() {
               ))
             ) : (
               <tr>
-                <td colSpan="4" className="text-center py-4">
+                <td colSpan="6" className="text-center py-4">
                   No transactions found.
                 </td>
               </tr>
