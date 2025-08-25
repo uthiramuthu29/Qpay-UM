@@ -1,12 +1,17 @@
-# React + Vite
+# Qpay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a demo payment and transaction webapp.
 
-Currently, two official plugins are available:
+This webapp is created using vite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To initiate the project:
 
-## Expanding the ESLint configuration
+- cd qpay
+- npm run dev, for dev environment
+- npm run build, for prod environment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Architecture
+
+- React - Version - 19.1.1
+- React Router - Version - 7.8.2
+- Tailwind CSS - Version - 4.1.12
