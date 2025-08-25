@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://64.227.189.27/wallet/api/v1/:splat"
+  status = 200
+  force = true
