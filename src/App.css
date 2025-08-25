@@ -1,0 +1,242 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-UltraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-RegularItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 950;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-HeavyItalic.ttf") format("truetype");
+  font-weight: 950;
+  font-style: italic;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
+header {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+  background-color: #42794a;
+  border: 1px solid #42794a;
+}
+
+main aside nav ul li:nth-child(3) a {
+  position: relative;
+}
+
+main aside nav ul li:nth-child(3) a::after {
+  content: "";
+  background-image: url(assets/img/light-green-down-arrow.svg);
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 16px;
+}
+
+main section{
+  padding-bottom: 25px;
+}
+
+main section .payone {
+  background: #61ce70;
+  background: radial-gradient(
+    circle,
+    rgba(97, 206, 112, 1) 0%,
+    rgba(66, 121, 74, 1) 100%
+  );
+  border: 2px solid;
+  border-image: radial-gradient(
+    circle,
+    rgba(97, 206, 112, 1) 0%,
+    rgba(66, 121, 74, 1) 100%
+  );
+  border-radius: 12px;
+  
+}
+
+main section .payone .payone-content {
+ width: 65%;
+}
+
+main section .payone .payone-content p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+main section .payone .payone-img {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 35%;
+  position: relative;
+}
+
+main section .payone .payone-img::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: -78px;
+  background-color: white;
+  clip-path: polygon(50% 0%, 0% 100%, 50% 100%);
+}
+
+main section .business-services .manage-business .img-cont{
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+main section .transactionlist-cont .transactionlist .head::after{
+  content: "";
+  background-image: url(assets/img/black-arrow.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+}
+
+main section .profile-cards-cont .profile-card a::after{
+  content: "";
+  background-image: url(assets/img/dark-green-right.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 1024px ) and (max-width: 1150px){
+  main aside nav{
+    width: 220px;
+  }
+
+  main section{
+    width: 725px;
+  }
+
+  main section .payone .payone-img::before{
+    left: -63px;
+  }
+}
+
+@media (max-width: 1024px){
+  main aside{
+    display: none;
+  }
+}
+
